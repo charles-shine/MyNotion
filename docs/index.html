@@ -14,12 +14,18 @@
   <script>
     window.$docsify = {
       name: 'MyNotion',
-      repo: '',
-      loadSidebar: true
+      repo: 'https://github.com/charles-shine/MyNotion',
+      loadSidebar: true,
+     subMaxLevel: 3,
+alias: {
+      '/.*/_sidebar.md': '/_sidebar.md',
+    },
+     sidebarDisplayLevel: 1
     }
   </script>
 <!-- plugins -->
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
   <!-- Docsify v4 -->
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>

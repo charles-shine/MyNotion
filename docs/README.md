@@ -1,10 +1,5 @@
-# Headline
+# MyNotion
 
-> An awesome project.
+> A dreamer committed to academic heights
 >
-> 123124124
-
-# 2
-
-## 3
 
